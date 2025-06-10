@@ -1,0 +1,22 @@
+.wrapper {
+    max-inline-size: 1000px;
+    margin-inline:auto;
+    
+}
+
+
+.formulaArea{
+    background:rgb(245, 137, 116);
+    display:block;
+    max-width: 300px;
+    margin:auto;
+}
+.formulaArea p {
+    font-size:2rem;
+    padding:0.2rem;
+}
+
+p {
+    padding-block:1rem;
+    text-align: center;
+}

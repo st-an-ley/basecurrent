@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="app.css" rel="stylesheet">
+        <script src="app.js"></script>
+        <script src="../templates/custom-nav-bar/app.js"></script>
+        <script src="../mathjax_tests/app.js"></script>
+        <script>
+            MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+            };
+        </script>
+        <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    </head>
+    <body>
+       <!-- <slot-paragraph>
+        <span slot="title">Mein Slot-Titel</span>
+        <span slot="text">Dies ist ein Text über Slots.</span>
+        </slot-paragraph>
+        
+        <custom-nav-bar></custom-nav-bar>-->
+        <div class="wrapper">
+        <div class="formulaArea">
+            <span slot="title">Mein Slot-Titel</span>
+            <p><span slot="text">$$\int_1^2{f(x)dx}$$</span></p>
+        </div>
+        <div class="formulaArea">
+            <span slot="title">Mein Slot-Titel</span>
+            <p><span slot="text">$$\int_1^2{f(x)dx}$$</span></p>
+        </div>
+        <div class="formulaArea">
+            <p class="formula"><span slot="text">$$\int_0^{10}{h(x)dx}$$</span></p>
+        </div>
+        <p>Hallo</p>
+        </div>
+    </body>
+    </html>
+
+    <!--app.js ist für mathjax nicht wichtig -->

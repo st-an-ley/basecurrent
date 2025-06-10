@@ -1,0 +1,403 @@
+body {
+    text-align: center;
+    
+}
+
+
+
+.wrapper {
+    max-inline-size: 1000px;
+    margin-inline:auto;
+
+
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.dropdownContent{
+    display:none;
+    position:absolute;
+    min-width:6rem;
+    max-width:100%;
+    overflow: auto;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border:3px solid rgba(0,122,185,255);
+    border-bottom: none;
+
+    z-index:1;
+    max-width: 100%;
+}
+
+.dropdownContent a 
+{
+    font-size: 1.3rem;
+    float:none;
+    text-align: left;
+    padding:0.1rem;
+    text-decoration: none;
+    display:block;
+    color:white;
+    border-bottom: solid 3px rgb(0, 122, 185);
+}
+
+.dropdown {
+    float:left;
+    border:none;
+    outline:none;
+    background-color: inherit;
+    font-family: inherit;
+    margin:0;
+}
+
+.dropdown:hover .dropdownContent{
+    display:block;
+}
+
+.mainNavigation input[type=text] {
+
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 2rem;
+
+}
+
+
+
+.mainNavigation ul {
+    
+    list-style:none;
+    @media only screen and (width > 500px){
+    padding-block:0.4rem;
+    padding-inline-start:3px;
+    padding-inline-end:1rem;
+    font-size:2rem;
+    margin-block-start:3.6rem;
+    
+}
+}
+
+.mainNavigation li:hover {
+        
+
+}
+
+.mainNavigation a:hover {
+    color:#ffffff;
+    transition:0.2s;
+    background-color:rgba(0,122,185,0.9);
+}
+
+
+.mainNavigation a {
+    text-decoration: none;
+    color:#393b87;
+    font-weight:bold;
+    padding:3px;
+
+
+}
+
+#lmgLogo{
+    display:flex;
+    min-width:3rem;
+    @media only screen and (width > 500px){
+    min-width:0.5rem;
+    max-width:13rem;
+}
+}
+
+#lmgLogo:hover{
+    cursor:pointer;
+}
+
+.subTopic{
+
+        border-radius:5px;
+        margin-block-end:0.3rem;
+        margin-block-start:1rem;
+        padding-inline:1rem;
+        border-radius:12px;
+        
+
+}
+
+.subTopic h2 
+{
+        color:#393b87;
+        @media only screen and (width > 500px){
+        font-size:2.5rem;
+        margin-block-end:1rem;
+        
+}
+}
+
+.subTopic h2:hover{
+    color:#ffffff;
+    transition:0.2s;
+    background-color:rgba(0,122,185,255);
+
+}
+
+.subTopic p {
+        @media only screen and (width > 500px){
+        font-size:1.5rem;
+}
+}
+
+
+.h2Topics{
+    padding-block-start:1rem;
+    color:rgba(0,122,185,255);
+    padding-block-start:1rem;
+    padding-block-end:0.7rem;
+    margin-block:0rem;
+    @media only screen and (width > 500px){
+        font-size:2rem;
+    }
+    
+}
+
+
+.landerPage {
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-image: url('../../images/backgroundLander.png');
+    padding-block:10rem;
+    padding-inline:1rem;
+    margin-block-start:0;
+    margin-block-end:0;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    color:#ffffff;
+    display:grid;
+    place-items: center;
+    
+}
+
+
+.landerPageHeading{
+
+    color:black;
+    text-align: center;
+    border-radius:12px;
+    padding-block:0.5rem;
+    @media only screen and (width > 500px){ 
+    font-size:3rem;
+    display:block;
+    max-width: fit-content;
+    background-color: white;
+    background-size: contain;
+    padding:1rem;
+
+
+}
+}
+
+
+
+.highlightedOrange {
+    color:orange;
+}
+.highlightedPurple {
+    color:#393b87;
+    
+}
+
+.highlightedBlue {
+    color:rgba(0,122,185,255);
+}
+
+.button {
+  background-color: #393b87;
+  border: none;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 2rem;
+  border-radius: 8px;
+}
+
+.areaInBetween{
+    @media only screen and (width > 500px){
+        background-color: #393b87;
+        color:white;
+        padding:2rem;
+        font-size: 2rem;
+        font-weight: bold;
+        margin:0;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+    
+}
+
+
+
+
+.button-topic{
+    @media only screen and (width > 500px){
+        border-radius:4px;
+        background-color: #df9a72;
+        border:3px solid rgb(78, 173, 228);
+        color:white;
+        text-align: center;
+        text-decoration: none;
+        display:inline-block;
+    }
+
+}
+.subTopicText{
+    @media only screen and (width > 500px){
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+    margin-block-end:1rem;
+    padding:0px;
+}
+}
+
+#whatWeDo{
+    border:none;
+}
+
+#whatWeDoText{
+    background-color:rgb(246, 169, 54);
+    color:#ffffff;
+    font-weight:bold;
+    padding-inline:1rem;
+    border-radius:5px;
+    border:3px solid rgba(0,122,185,255)
+    
+}
+
+#lmgGebaeudeAussenansicht {
+    @media only screen and (width > 500px){
+    min-width:400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-block-end:1rem;
+    margin-inline-end:0px;
+    
+}
+}
+#lmgGebaeudeAussenansicht:hover,#wetterstationen_mit_gehauese:hover{
+        transition:0.5s;
+        transform:scale(1.4);
+    }
+
+#wetterstationen_mit_gehauese{
+    @media only screen and (width > 500px){
+    max-width:400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-block-end:1rem;
+    margin-inline-end:0px;
+}
+}
+
+
+
+
+.multi-column-layout {
+    gap:20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color:black;
+    
+}
+
+.twoColumnLayout{
+    gap:20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    color:black;
+}
+
+
+
+.two-column-text-section 
+{
+    padding-block:1rem;
+    color:white;
+    background-color: rgb(137, 217, 252);
+}
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 12px; /* 5px rounded corners */
+    margin-block-end:1.5rem;
+    background-color: white;
+    padding:1rem;
+    padding-block-end:0;
+    
+
+  }
+
+  .cardTopics {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 12px; /* 5px rounded corners */
+    margin-block-end:1.5rem;
+    background-color: white;
+    padding:1rem;
+    padding-block-end:0;
+    border:3px solid #393b87;
+
+    
+
+  }
+
+  .container{
+
+        color:#393b87;
+        padding-inline:1rem;
+        
+  }
+
+
+  .cardImage{
+        @media only screen and (width > 500px){
+        max-height:12rem;
+        min-height: 12rem;
+
+}
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    transition:0.2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border:5px #df9a72 solid;
+    transition:0.5s;
+    transform:scale(1.1);
+    cursor:pointer;
+
+  }
+
+  .listOfTopics {
+    text-align: left;
+  }
+
+
+
+.aboutUs{
+    
+}
+
+footer{
+    justify-content: end;
+    border: solid 3px rgba(0,122,185,255);
+
+}
+
+footer ul {
+    text-align: left;
+}
